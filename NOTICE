@@ -27,3 +27,85 @@ material derived from or copied from the following projects.
    Used only as a reference for category structure and the rule
    that prompt syntax must not be mixed across models. Prompt
    entries from that library are not included.
+
+4. picture-skills
+   https://github.com/kart-io/picture-skills
+   Author / owner: kart-io
+   License statement: the README says "MIT License", but no LICENSE
+   file was present in the public repository when checked on
+   2026-11-23. GitHub metadata also reported no detected license
+   file.
+   Age bands, learning-domain structure, "draw only observable
+   elements", and short style-keyword lists in
+   skills/children-picture-book and
+   skills/children-illustration-styles were distilled or adapted
+   from SKILL-zh.md, engine/config.py, learning-objectives.md,
+   scenes.md / SCENES in config.py, and content-safety-validation.md.
+   Character sheets, long scene essays, CCLP lock-text, output
+   examples, and engine code were not copied. Advertised files
+   styles.md, characters.md, and age-system.md were missing
+   upstream; style and age data were taken from engine/config.py
+   instead.
+
+5. storybook-generator-skill
+   https://github.com/weaiw/storybook-generator-skill
+   Author: Storybook Generator Skill contributors
+   License: MIT
+   Story pacing, character-bible fields, page-by-page prompt
+   structure, figure-text contract, trilingual layout rules, and
+   QA / rework order in skills/children-picture-book were distilled
+   from SKILL.md and the references listed there. Long templates
+   were rewritten in original Chinese rather than copied verbatim.
+
+6. companion-picture-book
+   https://github.com/892041548/companion-picture-book
+   License: MIT
+   This project also preserves credit to its stated upstream,
+   https://github.com/kangqiang1996-bot/picture-book-generator
+   (MIT, "Picture Book Generator Skill contributors"), which
+   companion-picture-book adapts.
+   Age-as-design-starting-point wording, story vs. flashcard
+   branches, habit / emotion / family theme groups, and five style
+   cards (warm-handdrawn, clear-flat, soft-cutpaper, gentle-crayon,
+   bold-simple) were distilled. Photo-likeness pipelines, the
+   five-TXT pronunciation export, and long QA tables were not
+   copied. AAP and CDC links mentioned in that project's
+   age-and-materials.md were used only as a reminder that page
+   counts are not clinical grades; those pages were not reproduced.
+
+7. hand-drawn-styles
+   https://github.com/threerocks/hand-drawn-styles
+   Author: liulei
+   License: MIT
+   Children's-book-relevant style recipes in
+   skills/children-illustration-styles/references/styles.md were
+   distilled from STYLES.md entries 12 (暖光童画), 13 (北欧纸雕),
+   14 (北欧绘本水粉), 16 (聚光水粉立绘), 17 (墨线绘本),
+   18 (暖色扁平绘本), 23 (皮影彩染), and the crayon-related
+   entries 2, 7, and 3.1. CORE / FLEX notes, palettes, and short
+   keyword lines were adapted; the long verified English prompt
+   templates and hosted anchor-image workflows were not copied
+   verbatim. Studio or franchise names appearing in upstream notes
+   were not used as style targets.
+
+8. picture-book
+   https://github.com/weivea/picture-book
+   No LICENSE file and no license statement in README were found
+   when checked on 2026-11-23. GitHub metadata reported no license.
+   Used only as a method reference for common picture-book medium
+   families (watercolor, crayon, collage, Nordic, flat graphic, and
+   similar). Prompt templates, negative-prompt banks, example pages,
+   and "representative work" lists were not copied.
+
+9. AI Coloring Book Prompts
+   https://github.com/gunjchhetri/ai-coloring-book-prompts
+   Author: InkChamps (https://inkchamps.com)
+   License for prompts and written content: CC BY 4.0
+   https://creativecommons.org/licenses/by/4.0/
+   skills/children-picture-book points to educational theme
+   categories (alphabet, numbers, habits, feelings, nature, bedtime,
+   and similar) with attribution. Prompt text from that library was
+   not copied. Sample images in assets/img/ are not covered by
+   CC BY 4.0 and were not used. If those prompts themselves are
+   later republished, credit "AI Coloring Book Prompts by InkChamps"
+   and link to the repository.
