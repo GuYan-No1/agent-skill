@@ -1,0 +1,29 @@
+Third-party notices
+===================
+
+This repository contains original skill text and documentation, plus
+material derived from or copied from the following projects.
+
+1. MidJourney Styles and Keywords Reference
+   https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference
+   Author: willwulfken
+   The keyword short lists and Midjourney parameter notes in
+   skills/character-image-prompt were distilled from that project's
+   style and comparison pages. Sample images were not copied.
+
+2. AI Visual Prompt Cookbook
+   https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
+   Author: @VigoCreativeAI
+   License: CC BY 4.0
+   https://creativecommons.org/licenses/by/4.0/
+   The files under skills/image-style-lock/styles/ are unmodified
+   copies of style.json originals. Reuse requires attribution to
+   AI Visual Prompt Cookbook / @VigoCreativeAI.
+   The style-lock method in skills/image-style-lock/SKILL.md is
+   adapted from that project's README and contributing docs.
+
+3. prompt-library
+   https://github.com/Nihilist-ZIO/prompt-library
+   Used only as a reference for category structure and the rule
+   that prompt syntax must not be mixed across models. Prompt
+   entries from that library are not included.
